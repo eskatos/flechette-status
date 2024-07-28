@@ -51,7 +51,7 @@ do
   then
     mkdir -p public/status
     echo "$dateTime, $result, $time_total" >> "public/status/${key}_report.log"
-    tail -2000 "public/status/${key}_report.log" > "public/status/${key}_report.log.tmp"
+    tail -8640 "public/status/${key}_report.log" > "public/status/${key}_report.log.tmp"
     mv "public/status/${key}_report.log.tmp" "public/status/${key}_report.log"
   else
     echo "    $dateTime, $result, $time_total"

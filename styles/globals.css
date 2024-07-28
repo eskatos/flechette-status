@@ -66,3 +66,11 @@
     @apply visible opacity-100 scale-100;
   }
 }
+
+.flechette {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.5em;
+}
